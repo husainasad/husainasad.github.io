@@ -72,6 +72,16 @@ input, select, textarea {
 	appearance: none;
 }
 
+.techImgs {
+	height: 60px;
+	width: auto;
+}
+
+.projectImgs {
+	height: 350px;
+	width: auto;
+}
+
 /* Basic */
 
 	@-ms-viewport {
