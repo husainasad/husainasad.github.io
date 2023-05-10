@@ -256,3 +256,17 @@
 		}
 
 })(jQuery);
+
+
+const showAboutMeButton = document.getElementById("about-me-btn");
+const aboutMeParagraph = document.getElementById("about-me");
+
+  showAboutMeButton.addEventListener("click", function() {
+    if (aboutMeParagraph.style.display === "none") {
+      aboutMeParagraph.style.display = "block";
+      showAboutMeButton.textContent = "Too Much! Go Back";
+    } else {
+      aboutMeParagraph.style.display = "none";
+      showAboutMeButton.textContent = "More About Me";
+    }
+  });
